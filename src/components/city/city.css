@@ -1,0 +1,23 @@
+.city {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+.city-icon {
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 25px;
+  width: 25px;
+}
+.city-icon svg {
+  height: 25px;
+  width: 25px;
+  fill: #535353;
+}
+.city-name {
+  font-weight: 700;
+  /* color: #11ac04; */
+  color: #fff;
+  text-shadow: 1px 1px 3px #000000cf;
+  font-size: 30px;
+}

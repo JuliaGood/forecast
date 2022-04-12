@@ -1,0 +1,65 @@
+.day {
+  width: 20%;
+  padding: 0 10px;
+}
+
+.day-box {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.day-box:hover {
+  transform: scale(1.05);
+}
+
+.day-name {
+  color: #fff;
+  text-align: center;
+  background: #01b0f1;
+  border-radius: 3px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  /* box-shadow: 0px 0px 7px 0px #878787; */
+  box-shadow: 0px 0px 7px 0px #bcbcbc;
+}
+
+.day-details {
+  background: #ffffffd7;
+  border-radius: 3px;
+  padding: 25px 10px;
+  text-align: center;
+}
+
+.day-box.active .day-details{
+  background: #fff;
+  box-shadow: 0px 0px 7px 0px #535353;
+}
+.day-box.active .day-name {
+  box-shadow: 0px 0px 7px 0px #535353;
+}
+
+.day-condition-icon {
+  max-height: 100px;
+  height: 100px;
+}
+.day-condition {
+  color: #747474;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.day-temperature {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+.day-temperature span {
+  font-size: 35px;
+}
+
+.day-date {
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: 300;
+  color: #747474;
+}
