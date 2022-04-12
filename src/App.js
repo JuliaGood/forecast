@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import City from "./components/city/City";
 import Week from "./components/week/Week";
 
-const API_BASE_URL = 'http://api.openweathermap.org';
+const API_BASE_URL = 'https://api.openweathermap.org';
 const API_KEY = 'ad3470aa9e33050bac76b3d9fd51b684';
 const MATCHED_CITIES_LIMIT = 20;
 
