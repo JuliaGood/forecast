@@ -63,3 +63,30 @@
   font-weight: 300;
   color: #747474;
 }
+
+@media screen and (max-width: 900px) {
+  .day-temperature {
+    font-size: 35px; 
+  }
+  .day-details {
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .day {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .day {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .day {
+    width: 50%;
+  }
+}

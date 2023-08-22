@@ -27,3 +27,19 @@
   color: #fff;
   margin-right: 14px;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .app-title {
+    font-size: 27px;
+  }
+  .app-title::before {
+    width: 140px;
+    top: -0.15px;
+  }
+  .app-title span:first-child {
+    margin-right: 14px;
+  }
+}

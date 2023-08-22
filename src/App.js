@@ -27,7 +27,7 @@ class App extends Component {
         .then((response) => response.json())
         .then((data) => {
           //console.log('cities', data);
-          if (data && data.length > 0 ) {
+          if (data && data.length > 0) {
             this.setState({ matchedCities: data });
           } else {
             this.setState({ matchedCities: [] });
@@ -57,14 +57,16 @@ class App extends Component {
 
     return (
       <div id="container">
-        <Header 
-          onSearchChange={this.onSearchChange}
-          onCitySelect={this.onCitySelect}
-          matchedCities={this.state.matchedCities}
-          inputCity={this.state.inputCity}
-        />
-        { this.state.city && <City city={this.state.city} /> }
-        <Week days={days} /> 
+        <div className="container-box">
+          <Header
+            onSearchChange={this.onSearchChange}
+            onCitySelect={this.onCitySelect}
+            matchedCities={this.state.matchedCities}
+            inputCity={this.state.inputCity}
+          />
+          {this.state.city && <City city={this.state.city} />}
+          <Week days={days} />
+        </div>
       </div>
     );
   }

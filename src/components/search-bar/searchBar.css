@@ -52,3 +52,9 @@
   background: #efefefab;
 }
 
+@media screen and (max-width: 768px) {
+  .search-bar {
+    margin-left: none;
+    margin: auto;
+  }
+}
